@@ -30,75 +30,77 @@ namespace Correios
         private void InitializeComponent()
         {
             this.CEPi = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.RUAi = new System.Windows.Forms.TextBox();
+            this.ESTi = new System.Windows.Forms.TextBox();
+            this.CIDi = new System.Windows.Forms.TextBox();
+            this.BAIi = new System.Windows.Forms.TextBox();
+            this.COMi = new System.Windows.Forms.TextBox();
+            this.NUMi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.ENDi = new System.Windows.Forms.Label();
-            this.NUMi = new System.Windows.Forms.Label();
-            this.COMi = new System.Windows.Forms.Label();
+            this.um = new System.Windows.Forms.Label();
+            this.sad = new System.Windows.Forms.Label();
             this.BRRi = new System.Windows.Forms.Label();
             this.CDDi = new System.Windows.Forms.Label();
-            this.ESTi = new System.Windows.Forms.Label();
+            this.ESTsdai = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CEPi
             // 
-            this.CEPi.Location = new System.Drawing.Point(63, 33);
+            this.CEPi.Location = new System.Drawing.Point(41, 35);
             this.CEPi.Name = "CEPi";
             this.CEPi.Size = new System.Drawing.Size(100, 20);
             this.CEPi.TabIndex = 0;
+            this.CEPi.TextChanged += new System.EventHandler(this.CEPi_TextChanged_1);
             this.CEPi.Leave += new System.EventHandler(this.CEPi_Leave);
             // 
-            // textBox2
+            // RUAi
             // 
-            this.textBox2.Location = new System.Drawing.Point(63, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.RUAi.Location = new System.Drawing.Point(41, 79);
+            this.RUAi.Name = "RUAi";
+            this.RUAi.Size = new System.Drawing.Size(100, 20);
+            this.RUAi.TabIndex = 1;
             // 
-            // textBox3
+            // ESTi
             // 
-            this.textBox3.Location = new System.Drawing.Point(63, 210);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.ESTi.Location = new System.Drawing.Point(279, 126);
+            this.ESTi.Name = "ESTi";
+            this.ESTi.Size = new System.Drawing.Size(100, 20);
+            this.ESTi.TabIndex = 2;
             // 
-            // textBox4
+            // CIDi
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 168);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.CIDi.Location = new System.Drawing.Point(162, 126);
+            this.CIDi.Name = "CIDi";
+            this.CIDi.Size = new System.Drawing.Size(100, 20);
+            this.CIDi.TabIndex = 3;
             // 
-            // textBox5
+            // BAIi
             // 
-            this.textBox5.Location = new System.Drawing.Point(63, 124);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 4;
+            this.BAIi.Location = new System.Drawing.Point(41, 126);
+            this.BAIi.Name = "BAIi";
+            this.BAIi.Size = new System.Drawing.Size(100, 20);
+            this.BAIi.TabIndex = 4;
             // 
-            // textBox6
+            // COMi
             // 
-            this.textBox6.Location = new System.Drawing.Point(301, 77);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 5;
+            this.COMi.Location = new System.Drawing.Point(279, 79);
+            this.COMi.Name = "COMi";
+            this.COMi.Size = new System.Drawing.Size(100, 20);
+            this.COMi.TabIndex = 5;
             // 
-            // textBox7
+            // NUMi
             // 
-            this.textBox7.Location = new System.Drawing.Point(184, 77);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 6;
+            this.NUMi.Location = new System.Drawing.Point(162, 79);
+            this.NUMi.Name = "NUMi";
+            this.NUMi.Size = new System.Drawing.Size(100, 20);
+            this.NUMi.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 17);
+            this.label1.Location = new System.Drawing.Point(38, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 7;
@@ -107,34 +109,34 @@ namespace Correios
             // ENDi
             // 
             this.ENDi.AutoSize = true;
-            this.ENDi.Location = new System.Drawing.Point(60, 61);
+            this.ENDi.Location = new System.Drawing.Point(38, 63);
             this.ENDi.Name = "ENDi";
             this.ENDi.Size = new System.Drawing.Size(53, 13);
             this.ENDi.TabIndex = 8;
             this.ENDi.Text = "Endereço";
             // 
-            // NUMi
+            // um
             // 
-            this.NUMi.AutoSize = true;
-            this.NUMi.Location = new System.Drawing.Point(181, 61);
-            this.NUMi.Name = "NUMi";
-            this.NUMi.Size = new System.Drawing.Size(44, 13);
-            this.NUMi.TabIndex = 9;
-            this.NUMi.Text = "Número";
+            this.um.AutoSize = true;
+            this.um.Location = new System.Drawing.Point(159, 63);
+            this.um.Name = "um";
+            this.um.Size = new System.Drawing.Size(44, 13);
+            this.um.TabIndex = 9;
+            this.um.Text = "Número";
             // 
-            // COMi
+            // sad
             // 
-            this.COMi.AutoSize = true;
-            this.COMi.Location = new System.Drawing.Point(298, 61);
-            this.COMi.Name = "COMi";
-            this.COMi.Size = new System.Drawing.Size(71, 13);
-            this.COMi.TabIndex = 10;
-            this.COMi.Text = "Complemento";
+            this.sad.AutoSize = true;
+            this.sad.Location = new System.Drawing.Point(276, 63);
+            this.sad.Name = "sad";
+            this.sad.Size = new System.Drawing.Size(71, 13);
+            this.sad.TabIndex = 10;
+            this.sad.Text = "Complemento";
             // 
             // BRRi
             // 
             this.BRRi.AutoSize = true;
-            this.BRRi.Location = new System.Drawing.Point(60, 108);
+            this.BRRi.Location = new System.Drawing.Point(38, 110);
             this.BRRi.Name = "BRRi";
             this.BRRi.Size = new System.Drawing.Size(34, 13);
             this.BRRi.TabIndex = 11;
@@ -143,39 +145,50 @@ namespace Correios
             // CDDi
             // 
             this.CDDi.AutoSize = true;
-            this.CDDi.Location = new System.Drawing.Point(60, 152);
+            this.CDDi.Location = new System.Drawing.Point(159, 110);
             this.CDDi.Name = "CDDi";
             this.CDDi.Size = new System.Drawing.Size(40, 13);
             this.CDDi.TabIndex = 12;
             this.CDDi.Text = "Cidade";
             // 
-            // ESTi
+            // ESTsdai
             // 
-            this.ESTi.AutoSize = true;
-            this.ESTi.Location = new System.Drawing.Point(60, 194);
-            this.ESTi.Name = "ESTi";
-            this.ESTi.Size = new System.Drawing.Size(40, 13);
-            this.ESTi.TabIndex = 13;
-            this.ESTi.Text = "Estado";
+            this.ESTsdai.AutoSize = true;
+            this.ESTsdai.Location = new System.Drawing.Point(276, 110);
+            this.ESTsdai.Name = "ESTsdai";
+            this.ESTsdai.Size = new System.Drawing.Size(40, 13);
+            this.ESTsdai.TabIndex = 13;
+            this.ESTsdai.Text = "Estado";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(162, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(217, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Consulta automática";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 265);
-            this.Controls.Add(this.ESTi);
+            this.ClientSize = new System.Drawing.Size(437, 188);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ESTsdai);
             this.Controls.Add(this.CDDi);
             this.Controls.Add(this.BRRi);
-            this.Controls.Add(this.COMi);
-            this.Controls.Add(this.NUMi);
+            this.Controls.Add(this.sad);
+            this.Controls.Add(this.um);
             this.Controls.Add(this.ENDi);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.NUMi);
+            this.Controls.Add(this.COMi);
+            this.Controls.Add(this.BAIi);
+            this.Controls.Add(this.CIDi);
+            this.Controls.Add(this.ESTi);
+            this.Controls.Add(this.RUAi);
             this.Controls.Add(this.CEPi);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -187,19 +200,20 @@ namespace Correios
         #endregion
 
         private System.Windows.Forms.TextBox CEPi;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox RUAi;
+        private System.Windows.Forms.TextBox ESTi;
+        private System.Windows.Forms.TextBox CIDi;
+        private System.Windows.Forms.TextBox BAIi;
+        private System.Windows.Forms.TextBox COMi;
+        private System.Windows.Forms.TextBox NUMi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label ENDi;
-        private System.Windows.Forms.Label NUMi;
-        private System.Windows.Forms.Label COMi;
+        private System.Windows.Forms.Label um;
+        private System.Windows.Forms.Label sad;
         private System.Windows.Forms.Label BRRi;
         private System.Windows.Forms.Label CDDi;
-        private System.Windows.Forms.Label ESTi;
+        private System.Windows.Forms.Label ESTsdai;
+        private System.Windows.Forms.Button button1;
     }
 }
 

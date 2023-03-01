@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\Correios\Reference.cs">
+    <Compile Include="Connected Services\CorreiosRef\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -73,170 +73,170 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\Correios\AtendeClienteService.wsdl" />
-    <None Include="Connected Services\Correios\Correios.Correios.atualizaPagamentoNaEntregaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\AtendeClienteService.wsdl" />
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.atualizaPagamentoNaEntregaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.atualizaRemessaAgrupadaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.atualizaRemessaAgrupadaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.bloquearObjetoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.bloquearObjetoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaClienteResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaClienteResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaContratoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaContratoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaDataAtualResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaDataAtualResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaOpcoesResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaOpcoesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaPagamentoEntregaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaPagamentoEntregaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaServicosAdicionaisAtivosResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaServicosAdicionaisAtivosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaServicosResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaServicosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaServicosValorDeclaradoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaServicosValorDeclaradoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaServicosXServicosAdicionaisResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaServicosXServicosAdicionaisResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.buscaTarifaValeResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.buscaTarifaValeResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.calculaTarifaServicoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.calculaTarifaServicoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.cancelarObjetoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.cancelarObjetoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.cancelarPedidoScolResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.cancelarPedidoScolResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.clienteERP.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.clienteERP.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.consultaCEPResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.consultaCEPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.contratoERP.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.contratoERP.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.dimensaoTO.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.dimensaoTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.embalagemLRSMaster.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.embalagemLRSMaster.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.enderecoERP.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.enderecoERP.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.fechaPlpResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.fechaPlpResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.fechaPlpVariosServicosResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.fechaPlpVariosServicosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.geraDigitoVerificadorEtiquetasResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.geraDigitoVerificadorEtiquetasResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.getStatusCartaoPostagemResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.getStatusCartaoPostagemResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.getStatusPLPResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.getStatusPLPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.integrarUsuarioScolResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.integrarUsuarioScolResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.mensagemParametrizadaTO.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.mensagemParametrizadaTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.obterClienteAtualizacaoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.obterClienteAtualizacaoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.obterEmbalagemLRSResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.obterEmbalagemLRSResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.obterMensagemParametrizadaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.obterMensagemParametrizadaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.pesquisarDimensoesServicoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.pesquisarDimensoesServicoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.pesquisarEmbalagensPorServicoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.pesquisarEmbalagensPorServicoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.pesquisarParametrosPorDescricaoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.pesquisarParametrosPorDescricaoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.pesquisarServicosAdicionaisResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.pesquisarServicosAdicionaisResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.retornoCancelamento.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.retornoCancelamento.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.servicoAdicionalTO.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.servicoAdicionalTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.servicoAdicionalXML.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.servicoAdicionalXML.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.servicoERP.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.servicoERP.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.solicitaEtiquetasResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.solicitaEtiquetasResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.solicitaPLPResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.solicitaPLPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.solicitarPostagemScolResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.solicitarPostagemScolResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.solicitaXmlPlpResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.solicitaXmlPlpResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.statusCartao.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.statusCartao.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.statusPlp.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.statusPlp.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.tipoEmbalagem.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.tipoEmbalagem.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.valePostal.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.valePostal.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.validaEtiquetaPLPResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.validaEtiquetaPLPResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.validaPlpResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.validaPlpResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.validarPostagemReversaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.validarPostagemReversaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.validarPostagemSimultaneaResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.validarPostagemSimultaneaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.verificaDisponibilidadeServicoResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.verificaDisponibilidadeServicoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.verificaModalTransporteResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.verificaModalTransporteResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Correios\Correios.Correios.VerificaSeTodosObjetosCanceladosResponse.datasource">
+    <None Include="Connected Services\CorreiosRef\Correios.CorreiosRef.VerificaSeTodosObjetosCanceladosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -256,16 +256,16 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\Correios\" />
+    <WCFMetadataStorage Include="Connected Services\CorreiosRef\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\Correios\configuration91.svcinfo" />
+    <None Include="Connected Services\CorreiosRef\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\Correios\configuration.svcinfo" />
+    <None Include="Connected Services\CorreiosRef\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\Correios\Reference.svcmap">
+    <None Include="Connected Services\CorreiosRef\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
